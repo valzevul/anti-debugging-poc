@@ -14,6 +14,7 @@
 		829A815124916998001E7EA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 829A815024916998001E7EA3 /* Assets.xcassets */; };
 		829A815424916998001E7EA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 829A815224916998001E7EA3 /* LaunchScreen.storyboard */; };
 		829A815E249169B6001E7EA3 /* anti_debug.c in Sources */ = {isa = PBXBuildFile; fileRef = 829A815D249169B6001E7EA3 /* anti_debug.c */; };
+		829A816024916F98001E7EA3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829A815F24916F98001E7EA3 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		829A815B249169B6001E7EA3 /* AntiDebugging-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AntiDebugging-Bridging-Header.h"; sourceTree = "<group>"; };
 		829A815C249169B6001E7EA3 /* anti_debug.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = anti_debug.h; sourceTree = "<group>"; };
 		829A815D249169B6001E7EA3 /* anti_debug.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = anti_debug.c; sourceTree = "<group>"; };
+		829A815F24916F98001E7EA3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +46,7 @@
 		829A813B24916996001E7EA3 = {
 			isa = PBXGroup;
 			children = (
+				829A815F24916F98001E7EA3 /* main.swift */,
 				829A815C249169B6001E7EA3 /* anti_debug.h */,
 				829A815D249169B6001E7EA3 /* anti_debug.c */,
 				829A815B249169B6001E7EA3 /* AntiDebugging-Bridging-Header.h */,
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				829A814C24916996001E7EA3 /* ViewController.swift in Sources */,
+				829A816024916F98001E7EA3 /* main.swift in Sources */,
 				829A814824916996001E7EA3 /* AppDelegate.swift in Sources */,
 				829A814A24916996001E7EA3 /* SceneDelegate.swift in Sources */,
 				829A815E249169B6001E7EA3 /* anti_debug.c in Sources */,
